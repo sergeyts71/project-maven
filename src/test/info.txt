@@ -1,0 +1,6 @@
+java --version
+mvn -v
+mvn clean install
+mvn install:install-file -Dfile=C:\Users\1\IdeaProjects\Solution\Maven\lib\desktop-game-engine.jar -DgroupId="com.javarush" -DartifactId=desktop-game-engine -Dversion="1.0" -Dpackaging=jar
+mvn clean install
+java -jar "C:\Users\1\IdeaProjects\Solution\Maven\target\project-maven-1.0.jar"
